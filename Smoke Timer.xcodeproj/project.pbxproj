@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAC6B30E1F79820300A59267 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC6B30D1F79820300A59267 /* AppDelegate.swift */; };
+		FAC6B3101F79820300A59267 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC6B30F1F79820300A59267 /* ViewController.swift */; };
+		FAC6B3131F79820300A59267 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAC6B3111F79820300A59267 /* Main.storyboard */; };
+		FAC6B3151F79820300A59267 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAC6B3141F79820300A59267 /* Assets.xcassets */; };
+		FAC6B3181F79820300A59267 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAC6B3161F79820300A59267 /* LaunchScreen.storyboard */; };
+		FAC6B3231F79820300A59267 /* Smoke_TimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC6B3221F79820300A59267 /* Smoke_TimerTests.swift */; };
+		FAC6B32E1F79820300A59267 /* Smoke_TimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC6B32D1F79820300A59267 /* Smoke_TimerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAC6B31F1F79820300A59267 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAC6B3021F79820300A59267 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAC6B3091F79820300A59267;
+			remoteInfo = "Smoke Timer";
+		};
+		FAC6B32A1F79820300A59267 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAC6B3021F79820300A59267 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAC6B3091F79820300A59267;
+			remoteInfo = "Smoke Timer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAC6B30A1F79820300A59267 /* Smoke Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Smoke Timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAC6B30D1F79820300A59267 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAC6B30F1F79820300A59267 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FAC6B3121F79820300A59267 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAC6B3141F79820300A59267 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAC6B3171F79820300A59267 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAC6B3191F79820300A59267 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAC6B31E1F79820300A59267 /* Smoke TimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Smoke TimerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAC6B3221F79820300A59267 /* Smoke_TimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smoke_TimerTests.swift; sourceTree = "<group>"; };
+		FAC6B3241F79820300A59267 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAC6B3291F79820300A59267 /* Smoke TimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Smoke TimerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAC6B32D1F79820300A59267 /* Smoke_TimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smoke_TimerUITests.swift; sourceTree = "<group>"; };
+		FAC6B32F1F79820300A59267 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAC6B3071F79820300A59267 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC6B31B1F79820300A59267 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC6B3261F79820300A59267 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAC6B3011F79820300A59267 = {
+			isa = PBXGroup;
+			children = (
+				FAC6B30C1F79820300A59267 /* Smoke Timer */,
+				FAC6B3211F79820300A59267 /* Smoke TimerTests */,
+				FAC6B32C1F79820300A59267 /* Smoke TimerUITests */,
+				FAC6B30B1F79820300A59267 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAC6B30B1F79820300A59267 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAC6B30A1F79820300A59267 /* Smoke Timer.app */,
+				FAC6B31E1F79820300A59267 /* Smoke TimerTests.xctest */,
+				FAC6B3291F79820300A59267 /* Smoke TimerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAC6B30C1F79820300A59267 /* Smoke Timer */ = {
+			isa = PBXGroup;
+			children = (
+				FAC6B30D1F79820300A59267 /* AppDelegate.swift */,
+				FAC6B30F1F79820300A59267 /* ViewController.swift */,
+				FAC6B3111F79820300A59267 /* Main.storyboard */,
+				FAC6B3141F79820300A59267 /* Assets.xcassets */,
+				FAC6B3161F79820300A59267 /* LaunchScreen.storyboard */,
+				FAC6B3191F79820300A59267 /* Info.plist */,
+			);
+			path = "Smoke Timer";
+			sourceTree = "<group>";
+		};
+		FAC6B3211F79820300A59267 /* Smoke TimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAC6B3221F79820300A59267 /* Smoke_TimerTests.swift */,
+				FAC6B3241F79820300A59267 /* Info.plist */,
+			);
+			path = "Smoke TimerTests";
+			sourceTree = "<group>";
+		};
+		FAC6B32C1F79820300A59267 /* Smoke TimerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FAC6B32D1F79820300A59267 /* Smoke_TimerUITests.swift */,
+				FAC6B32F1F79820300A59267 /* Info.plist */,
+			);
+			path = "Smoke TimerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAC6B3091F79820300A59267 /* Smoke Timer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAC6B3321F79820300A59267 /* Build configuration list for PBXNativeTarget "Smoke Timer" */;
+			buildPhases = (
+				FAC6B3061F79820300A59267 /* Sources */,
+				FAC6B3071F79820300A59267 /* Frameworks */,
+				FAC6B3081F79820300A59267 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Smoke Timer";
+			productName = "Smoke Timer";
+			productReference = FAC6B30A1F79820300A59267 /* Smoke Timer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAC6B31D1F79820300A59267 /* Smoke TimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAC6B3351F79820300A59267 /* Build configuration list for PBXNativeTarget "Smoke TimerTests" */;
+			buildPhases = (
+				FAC6B31A1F79820300A59267 /* Sources */,
+				FAC6B31B1F79820300A59267 /* Frameworks */,
+				FAC6B31C1F79820300A59267 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAC6B3201F79820300A59267 /* PBXTargetDependency */,
+			);
+			name = "Smoke TimerTests";
+			productName = "Smoke TimerTests";
+			productReference = FAC6B31E1F79820300A59267 /* Smoke TimerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FAC6B3281F79820300A59267 /* Smoke TimerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAC6B3381F79820300A59267 /* Build configuration list for PBXNativeTarget "Smoke TimerUITests" */;
+			buildPhases = (
+				FAC6B3251F79820300A59267 /* Sources */,
+				FAC6B3261F79820300A59267 /* Frameworks */,
+				FAC6B3271F79820300A59267 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAC6B32B1F79820300A59267 /* PBXTargetDependency */,
+			);
+			name = "Smoke TimerUITests";
+			productName = "Smoke TimerUITests";
+			productReference = FAC6B3291F79820300A59267 /* Smoke TimerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAC6B3021F79820300A59267 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Golden&Titan";
+				TargetAttributes = {
+					FAC6B3091F79820300A59267 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					FAC6B31D1F79820300A59267 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FAC6B3091F79820300A59267;
+					};
+					FAC6B3281F79820300A59267 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FAC6B3091F79820300A59267;
+					};
+				};
+			};
+			buildConfigurationList = FAC6B3051F79820300A59267 /* Build configuration list for PBXProject "Smoke Timer" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAC6B3011F79820300A59267;
+			productRefGroup = FAC6B30B1F79820300A59267 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAC6B3091F79820300A59267 /* Smoke Timer */,
+				FAC6B31D1F79820300A59267 /* Smoke TimerTests */,
+				FAC6B3281F79820300A59267 /* Smoke TimerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAC6B3081F79820300A59267 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC6B3181F79820300A59267 /* LaunchScreen.storyboard in Resources */,
+				FAC6B3151F79820300A59267 /* Assets.xcassets in Resources */,
+				FAC6B3131F79820300A59267 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC6B31C1F79820300A59267 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC6B3271F79820300A59267 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAC6B3061F79820300A59267 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC6B3101F79820300A59267 /* ViewController.swift in Sources */,
+				FAC6B30E1F79820300A59267 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC6B31A1F79820300A59267 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC6B3231F79820300A59267 /* Smoke_TimerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC6B3251F79820300A59267 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC6B32E1F79820300A59267 /* Smoke_TimerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAC6B3201F79820300A59267 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAC6B3091F79820300A59267 /* Smoke Timer */;
+			targetProxy = FAC6B31F1F79820300A59267 /* PBXContainerItemProxy */;
+		};
+		FAC6B32B1F79820300A59267 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAC6B3091F79820300A59267 /* Smoke Timer */;
+			targetProxy = FAC6B32A1F79820300A59267 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAC6B3111F79820300A59267 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAC6B3121F79820300A59267 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAC6B3161F79820300A59267 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAC6B3171F79820300A59267 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAC6B3301F79820300A59267 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAC6B3311F79820300A59267 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAC6B3331F79820300A59267 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J3U8S3EH68;
+				INFOPLIST_FILE = "Smoke Timer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Titans.Smoke-Timer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAC6B3341F79820300A59267 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J3U8S3EH68;
+				INFOPLIST_FILE = "Smoke Timer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Titans.Smoke-Timer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FAC6B3361F79820300A59267 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J3U8S3EH68;
+				INFOPLIST_FILE = "Smoke TimerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Titans.Smoke-TimerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smoke Timer.app/Smoke Timer";
+			};
+			name = Debug;
+		};
+		FAC6B3371F79820300A59267 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J3U8S3EH68;
+				INFOPLIST_FILE = "Smoke TimerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Titans.Smoke-TimerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smoke Timer.app/Smoke Timer";
+			};
+			name = Release;
+		};
+		FAC6B3391F79820300A59267 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J3U8S3EH68;
+				INFOPLIST_FILE = "Smoke TimerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Titans.Smoke-TimerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Smoke Timer";
+			};
+			name = Debug;
+		};
+		FAC6B33A1F79820300A59267 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J3U8S3EH68;
+				INFOPLIST_FILE = "Smoke TimerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Titans.Smoke-TimerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Smoke Timer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAC6B3051F79820300A59267 /* Build configuration list for PBXProject "Smoke Timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAC6B3301F79820300A59267 /* Debug */,
+				FAC6B3311F79820300A59267 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAC6B3321F79820300A59267 /* Build configuration list for PBXNativeTarget "Smoke Timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAC6B3331F79820300A59267 /* Debug */,
+				FAC6B3341F79820300A59267 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAC6B3351F79820300A59267 /* Build configuration list for PBXNativeTarget "Smoke TimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAC6B3361F79820300A59267 /* Debug */,
+				FAC6B3371F79820300A59267 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAC6B3381F79820300A59267 /* Build configuration list for PBXNativeTarget "Smoke TimerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAC6B3391F79820300A59267 /* Debug */,
+				FAC6B33A1F79820300A59267 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAC6B3021F79820300A59267 /* Project object */;
+}
