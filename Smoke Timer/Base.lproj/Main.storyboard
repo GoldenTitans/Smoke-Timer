@@ -9,10 +9,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Set UpVC-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Smoke_Timer" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="SetUpVC" customModule="Smoke_Timer" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -57,16 +57,19 @@
                                 <rect key="frame" x="358" y="20" width="46" height="32"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <state key="normal" title="Next"/>
+                                <connections>
+                                    <segue destination="1AV-TA-wfy" kind="show" id="tZC-tg-boS"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Cigarette1" translatesAutoresizingMaskIntoConstraints="NO" id="b8e-2K-y8T">
-                                <rect key="frame" x="12" y="413" width="388" height="121"/>
+                                <rect key="frame" x="16" y="362" width="388" height="121"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="f2N-Cc-1iK" firstAttribute="leading" secondItem="U5j-bz-A2W" secondAttribute="trailing" constant="88" id="1S7-cd-udp"/>
                             <constraint firstItem="U5j-bz-A2W" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-3.4999999999999716" id="2wN-7I-k8N"/>
-                            <constraint firstItem="b8e-2K-y8T" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="12" id="4ua-8h-PTk"/>
+                            <constraint firstItem="b8e-2K-y8T" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="4ua-8h-PTk"/>
                             <constraint firstItem="f2N-Cc-1iK" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="62T-k4-1oo"/>
                             <constraint firstItem="fH4-Wy-P6r" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Dtx-Qp-J9H"/>
                             <constraint firstItem="jRi-nC-5gX" firstAttribute="centerX" secondItem="0bd-bD-vVf" secondAttribute="centerX" id="Rvh-PH-FuU"/>
@@ -77,11 +80,11 @@
                             <constraint firstItem="0bd-bD-vVf" firstAttribute="centerX" secondItem="U5j-bz-A2W" secondAttribute="centerX" constant="3.4999999999999716" id="afC-zl-7Tt"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="fH4-Wy-P6r" secondAttribute="bottom" id="eIm-db-Eix"/>
                             <constraint firstItem="jRi-nC-5gX" firstAttribute="top" secondItem="8l2-Bs-4Ik" secondAttribute="bottom" constant="72" id="eXo-wA-TtH"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="b8e-2K-y8T" secondAttribute="bottom" constant="202" id="nh8-rT-5yV"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="b8e-2K-y8T" secondAttribute="trailing" constant="14" id="oB7-1e-V4d"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="b8e-2K-y8T" secondAttribute="bottom" constant="253" id="nh8-rT-5yV"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="b8e-2K-y8T" secondAttribute="trailing" constant="10" id="oB7-1e-V4d"/>
                             <constraint firstItem="0bd-bD-vVf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="oM9-F5-mbI"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="f2N-Cc-1iK" secondAttribute="trailing" constant="10" id="ric-0V-gEy"/>
-                            <constraint firstItem="b8e-2K-y8T" firstAttribute="top" secondItem="jRi-nC-5gX" secondAttribute="bottom" constant="16" id="s2O-0Q-gOc"/>
+                            <constraint firstItem="b8e-2K-y8T" firstAttribute="top" secondItem="jRi-nC-5gX" secondAttribute="bottom" constant="-35" id="s2O-0Q-gOc"/>
                             <constraint firstItem="0bd-bD-vVf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="w2V-8I-Ohn"/>
                             <constraint firstItem="fH4-Wy-P6r" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="yEO-SZ-W9T"/>
                             <constraint firstItem="0bd-bD-vVf" firstAttribute="top" secondItem="U5j-bz-A2W" secondAttribute="bottom" constant="37" id="yKK-6d-kCc"/>
@@ -98,6 +101,32 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="136.23188405797103" y="132.88043478260872"/>
+        </scene>
+        <!--TimerVC-->
+        <scene sceneID="nHG-VM-yuP">
+            <objects>
+                <viewController id="1AV-TA-wfy" customClass="TimerVC" customModule="Smoke_Timer" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="sZI-eq-MeL">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Cigarette1" highlightedImage="Cigarette1" translatesAutoresizingMaskIntoConstraints="NO" id="aPG-eG-A0j">
+                                <rect key="frame" x="65" y="148" width="309" height="54"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="aPG-eG-A0j" firstAttribute="top" secondItem="uq2-PW-8hi" secondAttribute="top" constant="128" id="AYZ-HA-ptV"/>
+                            <constraint firstItem="uq2-PW-8hi" firstAttribute="bottom" secondItem="aPG-eG-A0j" secondAttribute="bottom" constant="534" id="KN6-yD-Z7w"/>
+                            <constraint firstItem="aPG-eG-A0j" firstAttribute="leading" secondItem="uq2-PW-8hi" secondAttribute="leading" constant="65" id="WlF-SX-yrQ"/>
+                            <constraint firstItem="uq2-PW-8hi" firstAttribute="trailing" secondItem="aPG-eG-A0j" secondAttribute="trailing" constant="40" id="bWc-vg-v4e"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="uq2-PW-8hi"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TLj-ex-Py0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1039.1304347826087" y="132.88043478260872"/>
         </scene>
     </scenes>
     <resources>

@@ -8,9 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		FAC6B30E1F79820300A59267 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC6B30D1F79820300A59267 /* AppDelegate.swift */; };
-		FAC6B3101F79820300A59267 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC6B30F1F79820300A59267 /* ViewController.swift */; };
+		FAC6B3101F79820300A59267 /* SetUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC6B30F1F79820300A59267 /* SetUpVC.swift */; };
 		FAC6B3131F79820300A59267 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAC6B3111F79820300A59267 /* Main.storyboard */; };
 		FAC6B3181F79820300A59267 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAC6B3161F79820300A59267 /* LaunchScreen.storyboard */; };
+		FAC6B33D1F79B14800A59267 /* TimerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC6B33C1F79B14800A59267 /* TimerVC.swift */; };
+		FAC6B33F1F79B30500A59267 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAC6B33E1F79B30500A59267 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,13 +35,14 @@
 /* Begin PBXFileReference section */
 		FAC6B30A1F79820300A59267 /* Smoke Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Smoke Timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAC6B30D1F79820300A59267 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FAC6B30F1F79820300A59267 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FAC6B30F1F79820300A59267 /* SetUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetUpVC.swift; sourceTree = "<group>"; };
 		FAC6B3121F79820300A59267 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FAC6B3171F79820300A59267 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAC6B3191F79820300A59267 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAC6B31E1F79820300A59267 /* Smoke TimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Smoke TimerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAC6B3291F79820300A59267 /* Smoke TimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Smoke TimerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FAC6B33B1F79AED600A59267 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../.Trash/Assets.xcassets; sourceTree = "<group>"; };
+		FAC6B33C1F79B14800A59267 /* TimerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerVC.swift; sourceTree = "<group>"; };
+		FAC6B33E1F79B30500A59267 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,11 +92,12 @@
 			isa = PBXGroup;
 			children = (
 				FAC6B30D1F79820300A59267 /* AppDelegate.swift */,
-				FAC6B30F1F79820300A59267 /* ViewController.swift */,
+				FAC6B30F1F79820300A59267 /* SetUpVC.swift */,
 				FAC6B3111F79820300A59267 /* Main.storyboard */,
-				FAC6B33B1F79AED600A59267 /* Assets.xcassets */,
 				FAC6B3161F79820300A59267 /* LaunchScreen.storyboard */,
 				FAC6B3191F79820300A59267 /* Info.plist */,
+				FAC6B33C1F79B14800A59267 /* TimerVC.swift */,
+				FAC6B33E1F79B30500A59267 /* Assets.xcassets */,
 			);
 			path = "Smoke Timer";
 			sourceTree = "<group>";
@@ -206,6 +210,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAC6B3181F79820300A59267 /* LaunchScreen.storyboard in Resources */,
+				FAC6B33F1F79B30500A59267 /* Assets.xcassets in Resources */,
 				FAC6B3131F79820300A59267 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -231,7 +236,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAC6B3101F79820300A59267 /* ViewController.swift in Sources */,
+				FAC6B33D1F79B14800A59267 /* TimerVC.swift in Sources */,
+				FAC6B3101F79820300A59267 /* SetUpVC.swift in Sources */,
 				FAC6B30E1F79820300A59267 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -11,7 +11,7 @@ import UIKit
 
 
 
-class ViewController: UIViewController {
+class SetUpVC: UIViewController {
     
     @IBOutlet var Cigtxt: UILabel!
     @IBAction func CigCount(_ sender: UIStepper) {
@@ -37,7 +37,7 @@ class ViewController: UIViewController {
         TimePicker.minimumDate = TimePicker.date
         
         
-        // Do any additional setup after loading the view, typically from a nib.
+        
     }
     
     @IBAction func timeSelectedFromTimePicker(_ : AnyObject) {
