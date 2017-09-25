@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_7" orientation="portrait">
+    <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -14,24 +14,82 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Smoke_Timer" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="How many cigarretes?" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xr5-IS-oBB">
-                                <rect key="frame" x="16" y="28" width="343" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="fH4-Wy-P6r">
+                                <rect key="frame" x="0.0" y="520" width="414" height="216"/>
+                                <date key="date" timeIntervalSinceReferenceDate="528060403.59419203">
+                                    <!--2017-09-25 19:26:43 +0000-->
+                                </date>
+                                <connections>
+                                    <action selector="timeSelectedFromTimePicker:" destination="BYZ-38-t0r" eventType="valueChanged" id="aZW-7u-51e"/>
+                                </connections>
+                            </datePicker>
+                            <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="8l2-Bs-4Ik">
+                                <rect key="frame" x="156" y="196" width="94" height="29"/>
+                                <connections>
+                                    <action selector="CigCount:" destination="BYZ-38-t0r" eventType="valueChanged" id="gOU-UA-zIM"/>
+                                </connections>
+                            </stepper>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0bd-bD-vVf">
+                                <rect key="frame" x="164" y="105" width="86" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jRi-nC-5gX">
+                                <rect key="frame" x="16" y="297" width="382" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="382" id="2s3-va-Dqa"/>
+                                    <constraint firstAttribute="height" constant="100" id="dbZ-bh-kcq"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cigarettes" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U5j-bz-A2W">
+                                <rect key="frame" x="137" y="32" width="133" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="U5j-bz-A2W" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-3.4999999999999716" id="2wN-7I-k8N"/>
+                            <constraint firstItem="jRi-nC-5gX" firstAttribute="top" secondItem="8l2-Bs-4Ik" secondAttribute="bottom" constant="72" id="6Ii-WE-Ij6"/>
+                            <constraint firstItem="jRi-nC-5gX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="AVA-OB-9Fp"/>
+                            <constraint firstItem="jRi-nC-5gX" firstAttribute="top" secondItem="8l2-Bs-4Ik" secondAttribute="bottom" constant="72" id="AoE-tw-1gY"/>
+                            <constraint firstItem="fH4-Wy-P6r" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Dtx-Qp-J9H"/>
+                            <constraint firstItem="0bd-bD-vVf" firstAttribute="centerX" secondItem="jRi-nC-5gX" secondAttribute="centerX" id="H65-hC-7ZD"/>
+                            <constraint firstItem="8l2-Bs-4Ik" firstAttribute="top" secondItem="0bd-bD-vVf" secondAttribute="bottom" constant="55" id="Ibs-LI-oRp"/>
+                            <constraint firstItem="8l2-Bs-4Ik" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ily-iW-AFu"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="8l2-Bs-4Ik" secondAttribute="trailing" constant="164" id="MjL-an-FFe"/>
+                            <constraint firstItem="fH4-Wy-P6r" firstAttribute="top" secondItem="jRi-nC-5gX" secondAttribute="bottom" constant="123" id="NZW-Qy-hAm"/>
+                            <constraint firstItem="jRi-nC-5gX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="SY3-Gy-QYj"/>
+                            <constraint firstItem="8l2-Bs-4Ik" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="156" id="Yu7-J1-y9B"/>
+                            <constraint firstItem="0bd-bD-vVf" firstAttribute="centerX" secondItem="U5j-bz-A2W" secondAttribute="centerX" constant="3.4999999999999716" id="afC-zl-7Tt"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="jRi-nC-5gX" secondAttribute="trailing" constant="16" id="b6J-fD-4EU"/>
+                            <constraint firstItem="0bd-bD-vVf" firstAttribute="trailing" secondItem="8l2-Bs-4Ik" secondAttribute="trailing" id="d2L-XH-Vwf"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="fH4-Wy-P6r" secondAttribute="bottom" id="eIm-db-Eix"/>
+                            <constraint firstItem="0bd-bD-vVf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="oM9-F5-mbI"/>
+                            <constraint firstItem="0bd-bD-vVf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="w2V-8I-Ohn"/>
+                            <constraint firstItem="fH4-Wy-P6r" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="yEO-SZ-W9T"/>
+                            <constraint firstItem="0bd-bD-vVf" firstAttribute="top" secondItem="U5j-bz-A2W" secondAttribute="bottom" constant="37" id="yKK-6d-kCc"/>
+                            <constraint firstItem="fH4-Wy-P6r" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="zVc-SE-Tm1"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="Cigtxt" destination="0bd-bD-vVf" id="6FJ-ne-LP2"/>
+                        <outlet property="TimePicker" destination="fH4-Wy-P6r" id="aQO-ph-mQm"/>
+                        <outlet property="Timetxt" destination="jRi-nC-5gX" id="VPr-3P-Ej5"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
+            <point key="canvasLocation" x="136.23188405797103" y="132.88043478260872"/>
         </scene>
     </scenes>
 </document>
