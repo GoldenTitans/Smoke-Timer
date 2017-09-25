@@ -10,10 +10,7 @@
 		FAC6B30E1F79820300A59267 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC6B30D1F79820300A59267 /* AppDelegate.swift */; };
 		FAC6B3101F79820300A59267 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC6B30F1F79820300A59267 /* ViewController.swift */; };
 		FAC6B3131F79820300A59267 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAC6B3111F79820300A59267 /* Main.storyboard */; };
-		FAC6B3151F79820300A59267 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAC6B3141F79820300A59267 /* Assets.xcassets */; };
 		FAC6B3181F79820300A59267 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAC6B3161F79820300A59267 /* LaunchScreen.storyboard */; };
-		FAC6B3231F79820300A59267 /* Smoke_TimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC6B3221F79820300A59267 /* Smoke_TimerTests.swift */; };
-		FAC6B32E1F79820300A59267 /* Smoke_TimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC6B32D1F79820300A59267 /* Smoke_TimerUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,15 +35,11 @@
 		FAC6B30D1F79820300A59267 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAC6B30F1F79820300A59267 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FAC6B3121F79820300A59267 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FAC6B3141F79820300A59267 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAC6B3171F79820300A59267 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAC6B3191F79820300A59267 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAC6B31E1F79820300A59267 /* Smoke TimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Smoke TimerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FAC6B3221F79820300A59267 /* Smoke_TimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smoke_TimerTests.swift; sourceTree = "<group>"; };
-		FAC6B3241F79820300A59267 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAC6B3291F79820300A59267 /* Smoke TimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Smoke TimerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FAC6B32D1F79820300A59267 /* Smoke_TimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smoke_TimerUITests.swift; sourceTree = "<group>"; };
-		FAC6B32F1F79820300A59267 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAC6B33B1F79AED600A59267 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../.Trash/Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +71,6 @@
 			isa = PBXGroup;
 			children = (
 				FAC6B30C1F79820300A59267 /* Smoke Timer */,
-				FAC6B3211F79820300A59267 /* Smoke TimerTests */,
-				FAC6B32C1F79820300A59267 /* Smoke TimerUITests */,
 				FAC6B30B1F79820300A59267 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -100,29 +91,11 @@
 				FAC6B30D1F79820300A59267 /* AppDelegate.swift */,
 				FAC6B30F1F79820300A59267 /* ViewController.swift */,
 				FAC6B3111F79820300A59267 /* Main.storyboard */,
-				FAC6B3141F79820300A59267 /* Assets.xcassets */,
+				FAC6B33B1F79AED600A59267 /* Assets.xcassets */,
 				FAC6B3161F79820300A59267 /* LaunchScreen.storyboard */,
 				FAC6B3191F79820300A59267 /* Info.plist */,
 			);
 			path = "Smoke Timer";
-			sourceTree = "<group>";
-		};
-		FAC6B3211F79820300A59267 /* Smoke TimerTests */ = {
-			isa = PBXGroup;
-			children = (
-				FAC6B3221F79820300A59267 /* Smoke_TimerTests.swift */,
-				FAC6B3241F79820300A59267 /* Info.plist */,
-			);
-			path = "Smoke TimerTests";
-			sourceTree = "<group>";
-		};
-		FAC6B32C1F79820300A59267 /* Smoke TimerUITests */ = {
-			isa = PBXGroup;
-			children = (
-				FAC6B32D1F79820300A59267 /* Smoke_TimerUITests.swift */,
-				FAC6B32F1F79820300A59267 /* Info.plist */,
-			);
-			path = "Smoke TimerUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +206,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAC6B3181F79820300A59267 /* LaunchScreen.storyboard in Resources */,
-				FAC6B3151F79820300A59267 /* Assets.xcassets in Resources */,
 				FAC6B3131F79820300A59267 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,7 +240,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAC6B3231F79820300A59267 /* Smoke_TimerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +247,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAC6B32E1F79820300A59267 /* Smoke_TimerUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
